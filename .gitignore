@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Codecademy Solution
+codecademy_solution/
