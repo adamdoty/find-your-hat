@@ -20,10 +20,6 @@ class Field {
   }
 
   static generateField(height, width, holePerctentage) {
-    // height - make that number of arrays
-    // width - make the contents of the arrays, consider holeCoverage
-    // pick random - decide where the hat should go
-    // 4 5 20%
     const field = [];
     for (let i = 0; i < height; i++) {
       let fieldRow = [];
