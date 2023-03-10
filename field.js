@@ -21,9 +21,9 @@ class Field {
 
   static generateField(height, width, holePerctentage) {
     const field = [];
-    for (let i = 0; i < height; i++) {
+    for (let y = 0; y < height; y++) {
       let fieldRow = [];
-      for (let i = 0; i < width; i++) {
+      for (let x = 0; x < width; x++) {
         let holeChance = getRandomIntInclusive(1, 100);
         let fieldTile = fieldCharacter;
         if (holeChance <= holePerctentage - 1) {
